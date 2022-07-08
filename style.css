@@ -63,6 +63,7 @@ p {
 /*-------- clases --------*/
 
 .container {
+	max-width: 600px;
 	background-color: var(--White);
 	border-radius: 8px;
 	overflow: hidden;
@@ -121,8 +122,48 @@ p {
 	margin-top: 1rem;
 	font-family: var(--family-montserrat);
 	font-weight: 700;
+	transition: all .5s;
+}
+
+.btn:hover {
+	background-color: var(--Very-dark-blue);
 }
 
 .btn svg {
 	margin-right: .5rem;
+}
+
+/*-------- atribution --------*/
+
+.atribution {
+	text-align: center;
+}
+
+/*-------- media querie --------*/
+
+@media (min-width:  545px){
+
+	p {
+		font-size: .9rem
+	}
+	
+	.container {
+		display: flex;
+	}
+
+	.block2 {
+		width: 50%;
+	}
+
+	.background {
+		width: 50%;
+		background-image: url(images/image-product-desktop.jpg);
+		background-position: center;
+		background-size: cover;
+		height: 100%;
+	}
+
+	.big {
+		margin-right: 1.3rem;
+	}
 }
