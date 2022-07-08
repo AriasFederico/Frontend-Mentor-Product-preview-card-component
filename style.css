@@ -120,6 +120,7 @@ p {
 	border-radius: 8px;
 	margin-top: 1rem;
 	font-family: var(--family-montserrat);
+	font-weight: 700;
 }
 
 .btn svg {
