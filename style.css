@@ -40,6 +40,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	min-height: 100vh;
 }
 
 h1 {
@@ -157,10 +158,12 @@ p {
 
 	.background {
 		width: 50%;
+		height:480px;
 		background-image: url(images/image-product-desktop.jpg);
+		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
-		height: 100%;
+	
 	}
 
 	.big {
